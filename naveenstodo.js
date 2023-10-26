@@ -1,21 +1,19 @@
-/* Follow the instructions found in the description to complete the JavaScript functionality.*/
-
-let todoList = [{
-        text: "Learn HTML"
-    },
-    {
-        text: "Learn CSS"
-    },
-    {
-        text: "Learn JavaScript"
-    }
-];
-
 let todoItemsContainer = document.getElementById("todoItemsContainer");
 let addTodoButton = document.getElementById("addTodoButton");
 
-
-
+let todoList = [{
+        text: "Learn HTML",
+        uniqueNo: 1
+    },
+    {
+        text: "Learn CSS",
+        uniqueNo: 2
+    },
+    {
+        text: "Learn JavaScript",
+        uniqueNo: 3
+    }
+];
 
 let todosCount = todoList.length;
 
